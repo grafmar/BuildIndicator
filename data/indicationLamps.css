@@ -1,0 +1,222 @@
+/* Generated on: Sun Jun 05 2016 12:25:18 GMT+0000 (UTC) */
+
+/* ==========================================================================
+Start of base Webflow CSS - If you're looking for some ultra-clean CSS, skip the boilerplate and see the unminified code below.
+========================================================================== */
+html{height:100%}
+body{
+  margin:0;
+  font-family:Arial,sans-serif;
+  font-size:14px;
+  background: #123;
+  color: #aaa;
+}
+
+a:link {
+  color: #bbb;
+}
+
+/* visited link */
+a:visited {
+  color: #bbb;
+}
+
+/* mouse over link */
+a:hover {
+  color: #fbb;
+}
+
+/* selected link */
+a:active {
+  color: #bbb;
+}
+
+.table{
+  display: table;
+  width: 100%;
+  margin: 20px 20px 20px 20px;
+  padding: 0px;
+  margin-left:auto;
+  margin-right:auto;
+  max-width:640px;
+}
+
+.row{display: table-row; width: 100%; height: 10%; margin: 0px 0px 0px 0px;
+  padding: 0px;
+  height: 42px;
+}
+
+.lr {
+  display: table-cell;
+  width: 32px;
+  text-align: center;
+  vertical-align: middle;
+}
+.cent {
+  display: table-cell;
+  width: calc(100% - 64px);
+  text-align: center;
+  vertical-align: middle;
+}
+
+.bulblogo {
+  position: relative;
+  width: 24px;
+  vertical-align: middle;
+}
+.small {
+  width: 8px;
+}
+.left {
+  float: left;
+}
+.right {
+  float: right;
+}
+.center {
+  text-align: center;
+  vertical-align: middle;
+}
+
+.element {
+  position: relative;
+  display: table-cell;
+  width: calc(100% - 64px);
+  height: 32px;
+  margin: 0px 0px 0px 0px;
+  padding: 0px;
+}
+.slider{
+  width: 100%;
+  height: 32px;
+  margin: 0px 0px 0px 0px;
+  padding: 0px;
+}
+
+.stepdiv {
+  width: 30px;
+}
+
+.wideButton {
+  width: 100%;
+}
+
+textarea {
+  width: 100%;
+}
+
+button, select {
+    height: 24px;
+    display: inline-block;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit], select {
+    height: 24px;
+    display: inline-block;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=text], select {
+    width: 10em;
+    height: 24px;
+    padding: 3px 5px;
+    margin: 8px 0px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+
+/* Nice slide bar */
+input[type=range] {
+  -webkit-appearance: none;
+  margin: 10px 0;
+  width: 100%;
+  height: 0;
+}
+input[type=range]:focus {
+  outline: none;
+}
+input[type=range]::-webkit-slider-runnable-track {
+  width: 100%;
+  height: 20px;
+  cursor: pointer;
+  animate: 0.2s;
+  box-shadow: 1px 1px 1px #50555C;
+  background: #556677;
+  border-radius: 10px;
+  border: 0px solid #000000;
+}
+input[type=range]::-webkit-slider-thumb {
+  box-shadow: 0px 0px 0px #000000;
+  border: 0px solid #000000;
+  height: 20px;
+  width: 40px;
+  border-radius: 16px;
+  background: #CCDDEE;
+  cursor: pointer;
+  -webkit-appearance: none;
+  margin-top: 0px;
+}
+input[type=range]:focus::-webkit-slider-runnable-track {
+  background: #556677;
+}
+input[type=range]::-moz-range-track {
+  width: 100%;
+  height: 20px;
+  cursor: pointer;
+  animate: 0.2s;
+  box-shadow: 1px 1px 1px #50555C;
+  background: #556677;
+  border-radius: 10px;
+  border: 0px solid #000000;
+}
+input[type=range]::-moz-range-thumb {
+  box-shadow: 0px 0px 0px #000000;
+  border: 0px solid #000000;
+  height: 20px;
+  width: 40px;
+  border-radius: 16px;
+  background: #CCDDEE;
+  cursor: pointer;
+}
+input[type=range]::-ms-track {
+  width: 100%;
+  height: 20px;
+  cursor: pointer;
+  animate: 0.2s;
+  background: transparent;
+  border-color: transparent;
+  color: transparent;
+}
+input[type=range]::-ms-fill-lower {
+  background: #556677;
+  border: 0px solid #000000;
+  border-radius: 20px;
+  box-shadow: 1px 1px 1px #50555C;
+}
+input[type=range]::-ms-fill-upper {
+  background: #556677;
+  border: 0px solid #000000;
+  border-radius: 20px;
+  box-shadow: 1px 1px 1px #50555C;
+}
+input[type=range]::-ms-thumb {
+  box-shadow: 0px 0px 0px #000000;
+  border: 0px solid #000000;
+  height: 20px;
+  width: 40px;
+  border-radius: 16px;
+  background: #CCDDEE;
+  cursor: pointer;
+}
+input[type=range]:focus::-ms-fill-lower {
+  background: #556677;
+}
+input[type=range]:focus::-ms-fill-upper {
+  background: #556677;
+}
