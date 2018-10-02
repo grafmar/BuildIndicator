@@ -29,7 +29,8 @@ The hardware consists of:
 The housing is printed using a 3D-Printer. There is a slit to slide in a transparent foil to write
 the lamp configurations on. As background a transparent material can be used for the 3D-printer or
 a thin paper which can be laminated for durability.
-
+![Housing complete](housing/BuildIndicator_Housing.png)
+![Housing box only](housing/BuildIndicator_HousingBoxOnly.png)
 
 ## Author
 [Marco Graf](https://github.com/grafmar)
