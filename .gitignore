@@ -5,3 +5,4 @@
 /.vs/BuildIndicator/v14
 /src/BuildIndicator/__vm
 /src/BuildIndicator/Debug
+*.suo
