@@ -2,7 +2,7 @@
 This device can show the state of builds or any other thing stored in the firebase database. It can
 be configured, which part indicates what and lets the oportunity to meld fields together.
 
-[Build Indicator showing states](Docs\pictures\ShowingStates.jpg)
+![Build Indicator showing states](Docs\pictures\ShowingStates.jpg)
 
 ## Status
 The actual status of the software is still buggy. It resets if the streaming from the firebase is activated.
