@@ -23,10 +23,13 @@ The hardware consists of:
 * WS2812b programmable RGB-LED stripes 2x8 in series
 * SSD1306 OLED display (128x64 pixel)
 
+![Schematic](electronics/BuildIndicator_breadboard_schematic_Steckplatine.png)
+
 ## Housing / Enclosure
 The housing is printed using a 3D-Printer. There is a slit to slide in a transparent foil to write
 the lamp configurations on. As background a transparent material can be used for the 3D-printer or
 a thin paper which can be laminated for durability.
+
 
 ## Author
 [Marco Graf](https://github.com/grafmar)
