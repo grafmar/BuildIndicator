@@ -3,5 +3,6 @@
 ################################################################################
 
 /.vs/BuildIndicator/v14
-/Debug
-/__vm
+/src/BuildIndicator/__vm
+/src/BuildIndicator/Debug
+*.suo
