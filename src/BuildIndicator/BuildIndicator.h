@@ -10,6 +10,8 @@
 #define OLED_SCK    D4
 #define OLED_RESET  D5
 
+#define SCREEN_WIDTH 128 // OLED display width, in pixels
+#define SCREEN_HEIGHT 64 // OLED display height, in pixels
 
 #endif // BUILDINDICATOR_H
 

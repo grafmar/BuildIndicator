@@ -210,21 +210,21 @@ Color FirebaseHandler::getColorOfResult(String result) {
     uint8_t red   = constrain((result.substring(4, firstPos)).toInt(), 0, 255);
     uint8_t green = constrain((result.substring(firstPos+1, secondPos)).toInt(), 0, 255);
     uint8_t blue  = constrain((result.substring(secondPos+1)).toInt(), 0, 255);
-    //Serial.printf("getColorOfResult(): direct (%i,%i,%i)\n", red, green, blue);
+    Serial.printf("getColorOfResult(): direct (%i,%i,%i)\n", red, green, blue);
     return Color(red, green, blue);
   }
 
   // search result in interpretations
   for (Interpretation interpretation : m_interpretations) {
-    //Serial.printf("getColorOfResult(): check %s == %s?\n", interpretation.interpretName.c_str(), result.c_str());
+    Serial.printf("getColorOfResult(): check %s == %s?\n", interpretation.interpretName.c_str(), result.c_str());
     if (interpretation.interpretName == result) {
-      //Serial.printf("getColorOfResult(): from interpretation (%d,%d,%d)\n", interpretation.color.r, interpretation.color.g, interpretation.color.b);
+      Serial.printf("getColorOfResult(): from interpretation (%d,%d,%d)\n", interpretation.color.r, interpretation.color.g, interpretation.color.b);
       return interpretation.color;
     }
   }
 
   // return default color (dark)
-  //Serial.println("getColorOfResult(): nothing found (0,0,0)");
+  Serial.println("getColorOfResult(): nothing found (0,0,0)");
   return Color(0,0,0);
 }
 
