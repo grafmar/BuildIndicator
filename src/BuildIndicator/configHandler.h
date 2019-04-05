@@ -7,16 +7,16 @@
 
 class ConfigHandler {
 public:
-	ConfigHandler();
-	~ConfigHandler();
+    ConfigHandler();
+    ~ConfigHandler();
 
-	void readBuildKeys(String* buildKeys);
-	void saveBuildKeys(String* buildKeys);
-  void readInterpretations(std::list<Interpretation>& interpretations);
-  void saveInterpretations(std::list<Interpretation>& interpretations);
+    void readBuildKeys(String* buildKeys);
+    void saveBuildKeys(String* buildKeys);
+    void readInterpretations(std::list<Interpretation>& interpretations);
+    void saveInterpretations(std::list<Interpretation>& interpretations);
 
-	//void readBuildResultInterpretation(String* buildKeys);
-	//void saveBuildResultInterpretation(String* buildKeys);
+    //void readBuildResultInterpretation(String* buildKeys);
+    //void saveBuildResultInterpretation(String* buildKeys);
 
 private:
 };

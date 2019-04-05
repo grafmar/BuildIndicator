@@ -2,8 +2,11 @@
 #include "BuildIndicator.h"
 #include <Wire.h>
 
+
+
+
 DisplayHandler::DisplayHandler() :
-  m_display(OLED_RESET),
+  m_display(SCREEN_WIDTH, SCREEN_HEIGHT, &Wire, OLED_RESET),
   m_lastActualize(0),
   m_startup(true)
 {
