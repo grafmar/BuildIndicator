@@ -3,7 +3,7 @@
 
 #include <Arduino.h>
 #include <Adafruit_NeoPixel.h>
-#include "Color.h"
+#include "color.h"
 
 class LedHandler {
 public:

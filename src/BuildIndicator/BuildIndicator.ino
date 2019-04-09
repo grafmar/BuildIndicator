@@ -1,5 +1,4 @@
 #include "color.h"
-#include "color.h"
 #include "interpretation.h"
 #include "BuildIndicator.h"
 #include "configHandler.h"
@@ -126,5 +125,3 @@ void setupWebserver() {
   
   server.begin();
 }
-
-
