@@ -1,7 +1,7 @@
 #ifndef INTERPRETATION_H
 #define INTERPRETATION_H
 
-#include "Color.h"
+#include "color.h"
 
 struct Interpretation {
   String interpretName;
